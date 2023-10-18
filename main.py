@@ -17,7 +17,7 @@ def extract_links(url, content):
 
 files_to_check = ['/robots.txt', '/flag.txt', '/sitemap.xml', '/admin.html']
 
-start_url = input("Enter the site: ")
+start_url = input("Enter the website: ")
 
 urls_to_explore = [start_url]
 
