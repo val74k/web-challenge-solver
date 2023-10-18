@@ -1,6 +1,6 @@
 # web-challenge-solver
 
-Programme python qui détecte automatiquement des potentiels flag sur un challenge web facile d'un CTF
+Python program that automatically detects potential flags in an easy web challenge of a CTF
 
 
 ```
@@ -12,7 +12,7 @@ or
 pip install -r requirements.txt
 ```
 
-changer ligne 7 si il y a un format de ctf :
+Change line 7 if there's a different CTF flag format:
 ```
  flag_pattern = re.compile(r'\w+\{[^\}]*\}')
  flag_pattern = re.compile(r'CTF{\w+}')
