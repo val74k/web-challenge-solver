@@ -19,7 +19,7 @@ def extract_links(url, content):
 
 
 
-files_to_check = ['/robots.txt', '/flag.txt', '/sitemap.xml']
+files_to_check = ['/robots.txt', '/flag.txt', '/sitemap.xml', '/admin.html']
 
 # URL de départ
 start_url = input("site : ")
