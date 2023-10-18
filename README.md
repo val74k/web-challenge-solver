@@ -1,5 +1,7 @@
 # web-challenge-solver
 
+script python qui détecte automatiquement des potentiels flag sur un challenge web d'un CTF
+
 pip install requests
 pip install beautifulsoup4
 
