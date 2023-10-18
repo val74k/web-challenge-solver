@@ -9,6 +9,6 @@ pip install beautifulsoup4
 or pip install -r requirements.txt
 
 
-changer ligne 7 en quand de paterne 
+changer ligne 7 si il y a un format de ctf
  flag_pattern = re.compile(r'\w+\{[^\}]*\}')
  flag_pattern = re.compile(r'CTF{\w+}') par exemple
